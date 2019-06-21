@@ -1,0 +1,71 @@
+@media (min-width: 576px) {
+.d-sm-none {
+display: none !important;
+}
+.d-sm-block {
+display: block !important;
+}
+}
+
+
+
+body{
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Lobster', cursive;
+}
+
+span{
+  color: #fff;
+}
+
+.container{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+header{
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+article{
+  border-style: dotted;
+}
+
+.articulo{
+  display: flex;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.experiencia{
+  display:flex;
+  justify-content: center;
+
+
+
+
+}
+
+i{
+  font-size: 50px;
+  color: red;
+
+}
+
+footer i{
+  padding: 15px 10px;
+  font-size: 30px;
+  color: #fff;
+  display:flex;
+  justify-content:center;
+
+}
+footer{
+  display: flex;
+
+
+
+}
